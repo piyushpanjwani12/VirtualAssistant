@@ -1,0 +1,2 @@
+# VirtualAssistant
+A virtual assistant for laptop. It has been developed using the Sphinx library and swing framework. Currently this system is capable of opening apps and games, playing songs, playing videos, sending email, knowing the current time, setting a reminder and many more using voice commands. You can also set questions along with the answers you want the assistant to speak out when you make a vocal query.
