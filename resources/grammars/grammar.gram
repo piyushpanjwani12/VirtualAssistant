@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <feelings>  = ( how are you | say hello | skip | exit | browse | send mail | find meaning | what day is today | open you tube | what is the time | obey to me beach | sing me a song | who is your girl friend | what is the temperature | reminder of thirty | miss you | what is your height | what is my name | play animals | play boom boom pow );
+public <voices>  = ( change to voice one  | change to voice two | change to voice three | play all black | play cheap thrills | play got to love you | play mi gente | play somebodys me | play watch me | play love the way you lie | play see you again | play too many girls);
+public <amazing>  = ( open note pad | search inter net | open chrome | open browser | play shot me down |  open control panel | open run | search live cricket score | search meaning of hack | open typing master);
+public <nervous>  = (hi | hello | okay | done | add another);
+public <number> = ( zero | one | two | three | four | five | six | seven | nine | ten
+                   | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty 
+                   | thirty | forty | fifty | sixty | seventy | eighty | ninety |
+		            hundred | thousand | million | billion)+;                   
+public <syntax> = (calculate){1} <number>{1} (plus | minus | multiply | division){1} <number>{1}; 
